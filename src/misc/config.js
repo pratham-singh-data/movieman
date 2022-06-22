@@ -1,8 +1,10 @@
-const API_BASE_URL = "https://api.tvmaze.com";
+const API_BASE_URL = 'https://api.tvmaze.com';
 
-async function apiGet(queryString){
-    const response = await fetch(`${API_BASE_URL}${queryString}`).then(res => res.json());
-    return response;
+async function apiGet(queryString) {
+  const response = await fetch(`${API_BASE_URL}${queryString}`).then(res =>
+    res.json()
+  );
+  return response;
 }
 
 export default apiGet;
