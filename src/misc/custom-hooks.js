@@ -1,5 +1,4 @@
 import { useEffect, useReducer, useState } from "react";
-import { useParams } from "react-router";
 import apiGet from "./config";
 
 function showsReducer(prevState, action){
