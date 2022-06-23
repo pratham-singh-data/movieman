@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/movieman/static/css/main.b2586571.css",
+    "main.js": "/movieman/static/js/main.6a03b04a.js",
+    "service-worker.js": "/movieman/service-worker.js",
+    "index.html": "/movieman/index.html",
+    "main.b2586571.css.map": "/movieman/static/css/main.b2586571.css.map",
+    "main.6a03b04a.js.map": "/movieman/static/js/main.6a03b04a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2586571.css",
+    "static/js/main.6a03b04a.js"
+  ]
+}
