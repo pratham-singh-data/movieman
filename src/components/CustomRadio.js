@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const RadioWrapper = styled.label`
   display: block;
@@ -53,19 +53,16 @@ const RadioWrapper = styled.label`
   }
 `;
 
-const CustomRadio = ({label, ...restProps}) => {
-    return(
-        <RadioWrapper htmlFor={restProps.id}>
-            {label}
-            
-            <input
-            type="radio"
-            {...restProps}
-            />
+const CustomRadio = ({ label, ...restProps }) => {
+  return (
+    <RadioWrapper htmlFor={restProps.id}>
+      {label}
 
-            <span/>
-        </RadioWrapper>
-    );
-}
+      <input type="radio" {...restProps} />
+
+      <span />
+    </RadioWrapper>
+  );
+};
 
 export default CustomRadio;

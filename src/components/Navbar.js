@@ -15,7 +15,12 @@ const Navbar = () => {
       <NavList>
         {links.map(item => (
           <li key={item.key}>
-            <LinkStyled className={item.to === location.pathname ? "active" : ""} to={item.to}>{item.text}</LinkStyled>
+            <LinkStyled
+              className={item.to === location.pathname ? 'active' : ''}
+              to={item.to}
+            >
+              {item.text}
+            </LinkStyled>
           </li>
         ))}
       </NavList>
